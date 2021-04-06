@@ -1,0 +1,10 @@
+
+#input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color:#00FF00;
+    font-family: sans-serif;
+}
