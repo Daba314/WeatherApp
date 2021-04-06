@@ -1,5 +1,6 @@
 # WeatherApp
 Profit with JavaScript course
+
 Show the temperature requested city
 
 
