@@ -10,7 +10,7 @@ let API_KEY = "e287de77ad192e110d793df66b6c1f52";
  */
 getWeatherData = (city) => {
   const URL = "https://api.openweathermap.org/data/2.5/weather";
-  const FULL_URL = `${URL}?q=${city}&appid=${API_KEY}&units=`;
+  const FULL_URL = `${URL}?q=${city}&appid=${API_KEY}&units=imperial`;
   return fetch(FULL_URL).then((response) => {
     return response.json();
   })
